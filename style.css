@@ -1,0 +1,104 @@
+/*///// css reload///*/
+@import url(/Sass/cssreload.css);
+/*/// colores //*/
+/*/// Tipografias///*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+/*///footer//*/
+.attribution {
+  font-size: 12px;
+  margin: 30px auto;
+  font-family: "Open Sans";
+}
+.attribution a {
+  text-decoration: none;
+  list-style: none;
+}
+
+/*///Version mobile 375px///*/
+body {
+  background: url(/images/bg-mobile.svg) no-repeat hsl(257deg, 40%, 49%);
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  margin: 30px auto;
+}
+body main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main .container .logo {
+  width: 120px;
+  height: 50px;
+  align-self: flex-start;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+body main .container .img img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+body main .container .texto {
+  width: 80%;
+  text-align: center;
+}
+body main .container .texto h1 {
+  font-size: 22px;
+  font-family: "Poppins";
+  color: #fff;
+  letter-spacing: 1px;
+}
+body main .container .texto p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 15px;
+  margin: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+body main .container .texto button {
+  width: 200px;
+  height: 40px;
+  font-family: "Poppins";
+  align-items: center;
+  text-align: center;
+  color: hsl(257deg, 40%, 49%);
+  border-radius: 30px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 1px 7px black;
+}
+body main .container .texto button:hover {
+  background-color: hsl(300deg, 69%, 71%);
+  color: white;
+  cursor: pointer;
+}
+body main .container .redes {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  width: 200px;
+  gap: 25px;
+  margin: 40px 0;
+}
+body main .container .redes .c-face .face img {
+  align-items: center;
+  width: 14px;
+  height: 14px;
+}
+body main .container .redes .c-insta img {
+  width: 14px;
+  height: 14px;
+}
+body main .container .redes .c-tw img {
+  width: 14px;
+  height: 14px;
+}/*# sourceMappingURL=style.css.map */
